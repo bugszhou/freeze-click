@@ -39,6 +39,7 @@ export default {
   ],
   plugins: [
     json(),
+    commonjs(),
     resolve(),
     builtins(),
     globals(),
@@ -47,7 +48,6 @@ export default {
       runtimeHelpers: true,
       exclude: 'node_modules/**',
     }),
-    commonjs(),
     terser({
       include: [/^.+\.common\.js$/],
     }),
