@@ -1,6 +1,6 @@
 {
   "name": "freeze-click",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "防止多次点击",
   "author": "bugszhou | Email:bugszhou@outlook.com",
   "main": "index.js",
