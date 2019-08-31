@@ -1,0 +1,2 @@
+!function(e,f){"object"==typeof exports&&"undefined"!=typeof module?f(exports):"function"==typeof define&&define.amd?define(["exports"],f):(e=e||self,function(){var n=e["freeze-click"],t=e["freeze-click"]={};f(t),t.noConflict=function(){return e["freeze-click"]=n,t}}())}(this,function(e){"use strict";e.MODULE_NAME="freeze-click",e.freezeClick=function(){},Object.defineProperty(e,"__esModule",{value:!0})});
+//# sourceMappingURL=freeze-click.common.js.map

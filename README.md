@@ -1,2 +1,4 @@
-# freeze-click
-防止连续点击触发多次事件
+## freeze-click
+----------------------------
+author: bugszhou | Email:bugszhou@outlook.com <br>
+description: 防止多次点击

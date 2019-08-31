@@ -1,0 +1,1 @@
+{"version":3,"file":"freeze-click.dev.js","sources":["../src/lib/index.js"],"sourcesContent":["export const MODULE_NAME = 'freeze-click';\n\nexport function freezeClick() {\n\n};"],"names":["MODULE_NAME","freezeClick"],"mappings":";;;;;;;;;;;AAAaA,KAAAA,WAAW,CAAG,cAApB,UAESC,WAAT,EAAuB;;;;;;;;;;;;;"}
