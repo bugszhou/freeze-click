@@ -52,7 +52,7 @@ const handleClick = freezeClick((freezeFnObj) => {
     //t 为freeze-click实例
     setTimeout(() => {
         console.log('click');
-        freezeFnObj.cancel
+        freezeFnObj.cancel()
     }, 5000);
 });
 
