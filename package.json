@@ -11,7 +11,8 @@
   },
   "homepage": "https://github.com/bugszhou/freeze-click#readme",
   "scripts": {
-    "test": "jest --watchAll",
+    "test:w": "jest --watchAll",
+    "test": "jest",
     "dev": "rollup -c rollup.config.js --watch --environment NODE_ENV:development",
     "build": "npm run build:esm & npm run build:es5",
     "build:esm": "rollup -c rollup.config.js --environment NODE_ENV:production",
