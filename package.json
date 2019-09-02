@@ -10,6 +10,12 @@
     "url": "https://github.com/bugszhou/freeze-click.git"
   },
   "homepage": "https://github.com/bugszhou/freeze-click#readme",
+  "keywords": [
+    "freeze",
+    "click",
+    "throttle",
+    "freeze-click"
+  ],
   "scripts": {
     "test:w": "jest --watchAll",
     "test": "jest",
