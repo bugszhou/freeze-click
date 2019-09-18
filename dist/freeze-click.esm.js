@@ -440,7 +440,7 @@ function toNumber(value) {
 
 var lodash_throttle = throttle;
 
-function freezeClick(cb){var wait=1<arguments.length&&arguments[1]!==void 0?arguments[1]:1e3*60,t=lodash_throttle(cb,wait,{trailing:!1});return function(){for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++)args[_key]=arguments[_key];t.call.apply(t,[this,t].concat(args));}}
+var waitTime=1e3*10;function freezeClick(cb,wait){var time=1e3*10;time=wait||0===wait?wait:waitTime;var t=lodash_throttle(cb,time,{trailing:!1});return function(){for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++)args[_key]=arguments[_key];t.call.apply(t,[this,t].concat(args));}}
 
 export default freezeClick;
 //# sourceMappingURL=freeze-click.esm.js.map

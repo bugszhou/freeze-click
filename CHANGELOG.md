@@ -1,3 +1,48 @@
+<a name="1.1.0"></a>
+# [1.1.0](https://github.com/bugszhou/freeze-click/compare/v1.0.7...v1.1.0) (2019-09-18)
+
+
+### Features
+
+* Add setWaitTime ([71bd23c](https://github.com/bugszhou/freeze-click/commit/71bd23c))
+
+
+
+<a name="1.0.7"></a>
+## [1.0.7](https://github.com/bugszhou/freeze-click/compare/v1.0.6...v1.0.7) (2019-09-02)
+
+
+
+<a name="1.0.6"></a>
+## [1.0.6](https://github.com/bugszhou/freeze-click/compare/v1.0.5...v1.0.6) (2019-09-02)
+
+
+
+<a name="1.0.5"></a>
+## [1.0.5](https://github.com/bugszhou/freeze-click/compare/v1.0.4...v1.0.5) (2019-09-02)
+
+
+
+<a name="1.0.4"></a>
+## [1.0.4](https://github.com/bugszhou/freeze-click/compare/v1.0.2...v1.0.4) (2019-08-31)
+
+
+
+<a name="1.0.2"></a>
+## [1.0.2](https://github.com/bugszhou/freeze-click/compare/v1.0.1...v1.0.2) (2019-08-31)
+
+
+
+<a name="1.0.1"></a>
+## [1.0.1](https://github.com/bugszhou/freeze-click/compare/61d9fdb...v1.0.1) (2019-08-31)
+
+
+### Features
+
+* Finish ([61d9fdb](https://github.com/bugszhou/freeze-click/commit/61d9fdb))
+
+
+
 <a name="1.0.7"></a>
 ## [1.0.7](https://github.com/bugszhou/freeze-click/compare/v1.0.6...v1.0.7) (2019-09-02)
 
