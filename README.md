@@ -7,7 +7,7 @@ freeze-click(冻结点击)：在用户点击一个按钮时，为了节流保证
 
 ### Usual
 
-* 默认冻结60s，60s内只请求一次，需要手动调用`cancel`取消冻结才能发送第二次请求。未调用`cancel`将在60s后自动释放。
+* 默认冻结10s，10s内只请求一次，需要手动调用`cancel`取消冻结才能发送第二次请求。未调用`cancel`将在60s后自动释放。
 
 1. install
 
@@ -70,3 +70,13 @@ freezeTime(number): 需要冻结的时间，单位ms
 - **返回**
 
 (Function): 冻结后的函数
+
+### setWaitTime(wait = 10 * 1000)
+
+修改冻结时间
+
+```javascript
+import {setWaitTime} from 'freeze-click';
+
+setWaitTime(500);
+```
