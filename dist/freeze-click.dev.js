@@ -1,12 +1,13 @@
 (function (global, factory) {
-	typeof exports === 'object' && typeof module !== 'undefined' ? module.exports = factory() :
-	typeof define === 'function' && define.amd ? define(factory) :
+	typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports) :
+	typeof define === 'function' && define.amd ? define(['exports'], factory) :
 	(global = global || self, (function () {
 		var current = global['freeze-click'];
-		var exports = global['freeze-click'] = factory();
+		var exports = global['freeze-click'] = {};
+		factory(exports);
 		exports.noConflict = function () { global['freeze-click'] = current; return exports; };
 	}()));
-}(this, function () { 'use strict';
+}(this, function (exports) { 'use strict';
 
 	var commonjsGlobal = typeof globalThis !== 'undefined' ? globalThis : typeof window !== 'undefined' ? window : typeof global !== 'undefined' ? global : typeof self !== 'undefined' ? self : {};
 
@@ -450,9 +451,14 @@
 
 	var lodash_throttle = throttle;
 
-	var waitTime=1e3*10;function freezeClick(cb,wait){var time=1e3*10;time=wait||0===wait?wait:waitTime;var t=lodash_throttle(cb,time,{trailing:!1});return function(){for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++)args[_key]=arguments[_key];t.call.apply(t,[this,t].concat(args));}}
+	var waitTime=1e3*10;function setWaitTime(){var wait=0<arguments.length&&arguments[0]!==void 0?arguments[0]:1e3*10;waitTime=wait;}function freezeClick(cb,wait){var time=1e3*10;time=wait||0===wait?wait:waitTime;var t=lodash_throttle(cb,time,{trailing:!1});return function(){for(var _len=arguments.length,args=Array(_len),_key=0;_key<_len;_key++)args[_key]=arguments[_key];t.call.apply(t,[this,t].concat(args));}}
 
-	return freezeClick;
+	var setWaitTime$1=setWaitTime;
+
+	exports.default = freezeClick;
+	exports.setWaitTime = setWaitTime$1;
+
+	Object.defineProperty(exports, '__esModule', { value: true });
 
 }));
 //# sourceMappingURL=freeze-click.dev.js.map
