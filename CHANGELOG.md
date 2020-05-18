@@ -1,3 +1,18 @@
+# [1.2.0](https://github.com/bugszhou/freeze-click/compare/v1.0.7...v1.2.0) (2020-05-18)
+
+
+### Bug Fixes
+
+* Set wait time ([1994cda](https://github.com/bugszhou/freeze-click/commit/1994cda1705b5777ff7bd3269ba566ffb1cdb073))
+
+
+### Features
+
+* Add setWaitTime ([71bd23c](https://github.com/bugszhou/freeze-click/commit/71bd23c7906264b135c31e25bb4c89f776e112d0))
+* 增加setWaitTime ([bf4bf5b](https://github.com/bugszhou/freeze-click/commit/bf4bf5b7c3b4036fc964dc32995be2cb0742aa24))
+
+
+
 <a name="1.1.2"></a>
 ## [1.1.2](https://github.com/bugszhou/freeze-click/compare/v1.1.0...v1.1.2) (2019-09-18)
 
