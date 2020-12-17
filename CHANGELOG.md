@@ -1,3 +1,12 @@
+## [1.2.1](https://github.com/bugszhou/freeze-click/compare/v1.2.0...v1.2.1) (2020-12-17)
+
+
+### Features
+
+* 增加typings ([e3f088f](https://github.com/bugszhou/freeze-click/commit/e3f088feec8200cf65d08b0f721a9c7d19879459))
+
+
+
 # [1.2.0](https://github.com/bugszhou/freeze-click/compare/v1.0.7...v1.2.0) (2020-05-18)
 
 
