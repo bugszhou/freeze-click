@@ -17,6 +17,6 @@ export function freezeClick(cb, wait) {
   }
   const t = throttle(cb, time, { trailing: false });
   return function freezeFn(...args) {
-    t.call(this, t, ...args);
+    return t.call(this, t, ...args);
   };
 }
