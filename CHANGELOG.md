@@ -1,3 +1,12 @@
+# [1.3.0](https://github.com/bugszhou/freeze-click/compare/v1.2.1...v1.3.0) (2022-05-21)
+
+
+### Features
+
+* 增加返回值 ([d2a3a35](https://github.com/bugszhou/freeze-click/commit/d2a3a35520190bddaf5b94d8f2b46853de5b473c))
+
+
+
 ## [1.2.1](https://github.com/bugszhou/freeze-click/compare/v1.2.0...v1.2.1) (2020-12-17)
 
 

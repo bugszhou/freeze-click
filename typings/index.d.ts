@@ -10,5 +10,6 @@ declare module "freeze-click" {
     timeout?: number,
   ) => any;
   export const setWaitTime: (timeout: number) => void;
+  export const freeze: (maxTimeout?: number) => (target, property, descriptor) => void;
   export default freezeClick;
 }
