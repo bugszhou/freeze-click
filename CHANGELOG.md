@@ -1,3 +1,12 @@
+## [1.4.1](https://github.com/bugszhou/freeze-click/compare/v1.4.0...v1.4.1) (2022-07-01)
+
+
+### Bug Fixes
+
+* Babel编译问题 ([d1a1858](https://github.com/bugszhou/freeze-click/commit/d1a18581f3b68bab51ad34c90cd61f6777364c99))
+
+
+
 # [1.4.0](https://github.com/bugszhou/freeze-click/compare/v1.3.0...v1.4.0) (2022-07-01)
 
 
