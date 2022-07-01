@@ -1,3 +1,12 @@
+# [1.4.0](https://github.com/bugszhou/freeze-click/compare/v1.3.0...v1.4.0) (2022-07-01)
+
+
+### Features
+
+* 封装装饰器 ([bc2848a](https://github.com/bugszhou/freeze-click/commit/bc2848a51aa42cfa5176242eeda42d9f3a7b0957))
+
+
+
 # [1.3.0](https://github.com/bugszhou/freeze-click/compare/v1.2.1...v1.3.0) (2022-05-21)
 
 
