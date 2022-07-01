@@ -18,6 +18,7 @@ export default {
       sourcemap: true,
       strict: true,
       noConflict: true,
+      exports: "named",
     },
     // umd模式，压缩后，打包所有的依赖，可供浏览器直接使用
     {
@@ -27,6 +28,7 @@ export default {
       sourcemap: true,
       strict: true,
       noConflict: true,
+      exports: "named",
     },
   ],
   plugins: [

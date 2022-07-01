@@ -19,6 +19,7 @@ export default {
       sourcemap: true,
       strict: true,
       noConflict: true,
+      exports: "named",
     },
     // umd压缩后，第三方依赖未打包
     {
@@ -28,6 +29,7 @@ export default {
       sourcemap: true,
       strict: true,
       noConflict: true,
+      exports: "named",
     },
     // 使用es6 import语法
     {
@@ -35,6 +37,7 @@ export default {
       format: 'esm',
       sourcemap: true,
       strict: true,
+      exports: "named",
     },
   ],
   plugins: [
