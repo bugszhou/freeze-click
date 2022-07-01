@@ -1,3 +1,12 @@
+## [1.4.2](https://github.com/bugszhou/freeze-click/compare/v1.4.1...v1.4.2) (2022-07-01)
+
+
+### Bug Fixes
+
+* 删除多余类型 ([1bf776b](https://github.com/bugszhou/freeze-click/commit/1bf776b407d61c91d996bb2f665ff86caa73503c))
+
+
+
 ## [1.4.1](https://github.com/bugszhou/freeze-click/compare/v1.4.0...v1.4.1) (2022-07-01)
 
 
